@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cobracmd:
+    build: .
+    container_name: cobracmd
+    volumes:
+      -.:/go/src/
